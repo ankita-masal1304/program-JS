@@ -10,18 +10,21 @@
   console.log("--Update--");
   var myFullName = "Ankita Mohan Masal";
   console.log("myFullName:",myFullName);
-  
+
   console.log("--Declare and initialization--");
   var myLove ="I Love Only JS";
   console.log("I Love Only JS:",myLove);
 
   console.log("--declare and initalization must on same line");
   var firstName ="Ankita";
-  console.log("firstName:",firstName);
+   var type = typeof firstName;
+  console.log("firstName:",firstName,"Type is:",type);
   var lastName = "Masal";
-  console.log("Last Name :",lastName);
-  var age ="21";
-  console.log("Age is a :",age);
+   var typeOfName = typeof lastName;
+  console.log("Last Name :",lastName,"Type of Name:",typeOfName);
+  var age = 21;
+var ageof = typeof age;
+  console.log("Age is a :",age,"Type is:",ageof);
   var address = "Mumbai";
   console.log("Address is a :",address);
   var pinCode ="400101";
