@@ -25,3 +25,4 @@ console.log("Square is: ", squareValue);
 
 var returnValue = square(11);
 console.log("Square is: ", returnValue);
+
