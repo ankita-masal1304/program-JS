@@ -22,3 +22,7 @@ function femaleMarriageEligibility(gender,age,girlName){
  var returnValue = femaleMarriageEligibility("female",27,"Malinda Gates") ;
  console.log(returnValue);
 
+ console.log(4+true);
+ console.log(5-true);
+ 
+ 
