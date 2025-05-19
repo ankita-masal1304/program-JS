@@ -29,7 +29,7 @@ console.log(`this 2 is a number and '4' is a string then this number is convert 
 result = '4' / 2;
 console.log(`this 2 is a number and '4' is a string then this number is convert into a string  by using a "/" operator:${result}`);// this 2 is a number and '4' is a string then this number is convert into a string  by using a "/" operator
 
-console.log("== Implicit conversion of undefined with a number==");
+console.log("===Implicit conversion of undefined with a number===");
 result = 4 + undefined;
 console.log(`this undefined is convert into a number  by using "+" operator then output is NUll:${result}`);// this undefined is convert into a number  by using "+" operator then output is NUll
 result = 4 - undefined;
@@ -52,7 +52,7 @@ console.log(`the 'true'is a boolean value and by using a explicit conversion thi
 result = Number(false);
 console.log(`the 'false'is a boolean value and by using a explicit conversion this is convert in to a number.the output is 0:${result}`);
 
-console.log("==invalid string to num==");
+console.log("===invalid string to num===");
 result = Number('hello');
 console.log(`the string is invalid , the string is convert into a number  so the output is a null :${result}`);
 
