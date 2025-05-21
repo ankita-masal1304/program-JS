@@ -48,3 +48,25 @@ do {
     console.log("Hello");
     
 } while (false);
+
+console.log("==Sum of Num==");
+
+var sum = 0;
+for (var index = 1; index <= 10; index++) {
+    sum = sum + index;
+    
+}
+console.log(sum);
+
+var str = "hello Buddy";
+var strReverse = " ";
+for (let index = str.length-1; index >=0; index--) {
+    if (str.charAt(index) !=" ") {
+        strReverse = strReverse + str.charAt(index);
+        
+    }
+    
+}
+console.log(strReverse);
+
+
